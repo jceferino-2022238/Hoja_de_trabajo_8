@@ -4,5 +4,4 @@ class Proceso:
         self.vruntime = vruntime
 
     def __repr__(self):
-        return f"Proceso(pid={self.pid}, vruntime={self.vruntime})"
-        
+        return f"P{self.pid}:{round(self.vruntime,3)}"
